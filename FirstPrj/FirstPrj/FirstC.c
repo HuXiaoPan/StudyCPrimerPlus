@@ -19,7 +19,17 @@ int main(void) {
 
 	// 20191009 S1
 	// 尝试打印内存中的任意值
-	printf("这个时固定的值%d,这个就是内存中任意一个值%d\n", 10);
+	//printf("这个时固定的值%d,这个就是内存中任意一个值%#o\n", 10);
+	//getchar();
+
+	// 20191009 S2
+	// 进制转化
+	int num;
+	printf("请输入整数字:\n");
+	scanf_s("%d", &num);
+	printf("16进制:%#X\n", num);
+	printf("8进制:%#o", num);
+	getchar();
 	getchar();
 
 	return 0;
