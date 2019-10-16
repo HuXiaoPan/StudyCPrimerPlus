@@ -1,2 +1,3 @@
-﻿  FirstC.c
+﻿  TalkBack.c
+d:\workspace\studycprimerplus\firstprj\firstprj\talkback.c(16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   FirstPrj.vcxproj -> D:\Workspace\StudyCPrimerPlus\FirstPrj\Debug\FirstPrj.exe

@@ -1,6 +1,6 @@
-#include <stdio.h>
-
-int main(void) {
+//#include <stdio.h>
+//
+//int main(void) {
 	// 20191008 S1
 	//// 重新开始系统的学习C吧！！
 	//printf("Hello C!!!");
@@ -34,11 +34,11 @@ int main(void) {
 
 	// 20191009 S3
 	// 整数越界
-	int maxInt = 2147483647;
-	unsigned int maxUsInt = 4294967295;
-	printf("%d,%d,%d\n", maxInt, maxInt + 1, maxInt + 2);
-	printf("%u,%u,%u\n", maxUsInt, maxUsInt + 1, maxUsInt + 2);
-	getchar();
-
-	return 0;
-}
+//	int maxInt = 2147483647;
+//	unsigned int maxUsInt = 4294967295;
+//	printf("%d,%d,%d\n", maxInt, maxInt + 1, maxInt + 2);
+//	printf("%u,%u,%u\n", maxUsInt, maxUsInt + 1, maxUsInt + 2);
+//	getchar();
+//
+//	return 0;
+//}
