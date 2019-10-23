@@ -4,14 +4,19 @@
 
 #define ADJUST 7.31 // ×Ö·û³£Á¿
 
-int main(void) 
+int main(void)
 {
-	const double SCALE = 0.333; 
+	const double SCALE = 0.333;
 	double shoe, foot;
-	shoe = 9.0;
-	foot = SCALE * shoe + ADJUST;
+	shoe = 3.0;
 	printf("Shoe size (men's)             foot length\n");
-	printf("%10.1f%15.2f inches\n", shoe, foot);
+	while (shoe < 18.5)
+	{
+		foot = SCALE * shoe + ADJUST;
+		printf("%10.1f%15.2f inches\n", shoe, foot);
+		shoe++;
+	}
+
 	getchar();
 	return 0;
 }
